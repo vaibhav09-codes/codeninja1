@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./App.css"
-import Navbar from './components/navbar'
+import Navbar from './components/Navbar'
 import Editor from '@monaco-editor/react'; 
 import Select from 'react-select'; 
 import { GoogleGenAI } from "@google/genai";
