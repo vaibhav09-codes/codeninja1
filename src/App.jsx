@@ -7,10 +7,8 @@ import { GoogleGenAI } from "@google/genai";
 import Markdown from 'react-markdown';
 // Keeping the named import fix to prevent the crash
 import { HashLoader } from "react-spinners"; 
-
-// 1. Newest SDK initialization
 const ai = new GoogleGenAI({
-  apiKey: "AIzaSyDjObS0MIFLMBjDS0L9PkuOiOn3nRNXvSM" // Or leave as {} if using an environment variable
+  apiKey: "AIzaSyCmWJhF_UqOSXofqKdy1whzRtYmR2qUmVg" // Or leave as {} if using an environment variable
 });
 
 const App = () => {

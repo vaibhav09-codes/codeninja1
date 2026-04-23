@@ -1,6 +1,6 @@
 import React from 'react'
 import { Brain , Sun } from 'lucide-react';
-import Editor from '@monaco-editor/react';  
+
 
 
 const Navbar = () => {
