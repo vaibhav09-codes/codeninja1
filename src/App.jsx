@@ -8,9 +8,9 @@ import Markdown from 'react-markdown';
 // Keeping the named import fix to prevent the crash
 import { HashLoader } from "react-spinners"; 
 const ai = new GoogleGenAI({
-  apiKey: "AIzaSyCmWJhF_UqOSXofqKdy1whzRtYmR2qUmVg" // Or leave as {} if using an environment variable
+  apiKey: import.meta.env.VITE_GEMINI_KEY
 });
-
+console.log("KEY:", import.meta.env.VITE_GEMINI_KEY)
 const App = () => {
   const options = [
     { value: 'javascript', label: 'JavaScript' },
